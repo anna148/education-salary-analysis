@@ -18,6 +18,8 @@ The data comes from the [**Career Explorer Occupational Level Data**](https://ca
 
 The dataset includes information about occupations, wages, education requirements, employment, geographic areas, skills, and other career-related characteristics.
 
+Each observation represents an occupation within a specific geographic area, so the same occupation may appear more than once across different locations.
+
 ### Project Scaffold Table
 
 | Element | My Plan |
@@ -31,9 +33,17 @@ The dataset includes information about occupations, wages, education requirement
 | **Uncertainty Metric** | I plan to use bootstrapping to estimate uncertainty for a salary-based metric such as median annual salary. |
 | **Null Hypothesis** | There is no relationship between an occupation's typical education requirement and its median annual salary. |
 
+## Project Notebooks
+
+- `01_eda.ipynb` — Exploratory data analysis, data quality checks, salary distributions, outlier analysis, and education-level comparisons.
+- `02_hypothesis_test.ipynb` — Permutation test for the main hypothesis. *(To be completed.)*
+- `03_bootstrap_analysis.ipynb` — Bootstrap uncertainty analysis. *(To be completed.)*
+
 ## 4. Methods
 
-This section will be completed as the analysis progresses.
+The exploratory data analysis is documented in `01_eda.ipynb`. It includes dataset structure checks, missing-value analysis, duplicate checks, descriptive salary statistics, IQR-based outlier identification, and comparisons of median annual salary across ordered education requirement categories.
+
+The permutation test and bootstrap uncertainty analysis will be completed in separate notebooks later in the project.
 
 ## 5. Results
 
