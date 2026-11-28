@@ -43,11 +43,11 @@ Each observation represents an occupation within a specific geographic area, so 
 
 The analysis is organized into three notebooks:
 
-01_eda.ipynb — exploratory data analysis, data quality checks, salary distributions, outlier analysis, and comparisons across education requirements.
+`01_eda.ipynb` — exploratory data analysis, data quality checks, salary distributions, outlier analysis, and comparisons across education requirements.
 
-02_hypothesis_test.ipynb — permutation test comparing occupations requiring a Bachelor's Degree with occupations requiring a High School Diploma or Equivalent.
+`02_hypothesis_test.ipynb` — permutation test comparing occupations requiring a Bachelor's Degree with occupations requiring a High School Diploma or Equivalent.
 
-03_bootstrap_analysis.ipynb — bootstrap uncertainty analysis for the mean and median salary differences.
+`03_bootstrap_analysis.ipynb` — bootstrap uncertainty analysis for the mean and median salary differences.
 
 For the hypothesis test, I used the difference in mean median annual salary as the test statistic:
 
