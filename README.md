@@ -51,9 +51,8 @@ The analysis is organized into three notebooks:
 
 For the hypothesis test, I used the difference in mean median annual salary as the test statistic:
 
-\bar{x}_{\text{Bachelor's}}
-
-\bar{x}_{\text{High School}}
+$$
+\bar{x}_{\text{Bachelor's}} - \bar{x}_{\text{High School}}
 $$
 
 Under the null hypothesis, education requirement is not associated with salary. I randomly shuffled the education labels 10,000 times while keeping the salary values unchanged and recalculated the mean difference after each permutation.
@@ -72,6 +71,7 @@ Occupations requiring a Bachelor's Degree had a mean median annual salary of app
 
 The observed difference in means was:
 
+$$
 $25{,}706.49
 $$
 
